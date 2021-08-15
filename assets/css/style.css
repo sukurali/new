@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+	font-family: 'Acme', sans-serif;
+}
+.full_page_bg{
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background\ image.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#navbarNav{
+	margin: 0;
+	padding: 0;
+	
+}
+#navbarNav ul li a{
+	color:#fff;
+	font-weight: 600;
+	font-size:22px;
+	padding-left:10px;
+	transition:0.3s;
+	letter-spacing: 2px;
+}
+#navbarNav ul li a:hover{
+	color:rgb(255, 230, 0);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/icons.png);
+}
+
+
+/*-------------------- second_section css---------------------------- */
+#second_section{
+	text-align:center;
+	color:white;
+	padding: 90px 0px;
+}
+#second_section h2{
+	font-size:60px;
+	font-weight: 600;
+}
+#second_section h1 a{
+	text-decoration: none;
+	color:chocolate;
+
+}
+#second_section h1 a:hover{
+	color:chocolate;
+
+}
+
+.social_icons2 i {
+    font-size: 15px;
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+    background: #28a745;
+    border-radius: 3px;
+    line-height: 26px;
+    color: white;
+}
+
+
+/* ----------------------about us---------------- */
+#about_section{
+	padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------about section css------------------------
+-------------------------------------------------------------------------- */
+#about_section{
+	font-family: 'Acme', sans-serif;
+}
+.about_us_icons{
+    background: #000;
+    color:#fff;
+    text-align: center;
+}
+.about_paragraph{
+    margin:0 auto;
+    text-align: left;
+}
+.about_paragraph p{
+    line-height: 25px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+    
+
+.about_us_icons h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+	position: relative;
+}
+hr{
+    width:7%;
+    margin:0 auto;
+}
+.fa-question-circle{
+    color:chocolate;
+}
+.about_icon i {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom:10px;
+}
+.about_icon h2{
+    letter-spacing: 2px;
+}
+.about_us_icons h1::after{
+	content: "";
+    background-color:chocolate;
+    width: 50%;
+	bottom:0;
+	left:25%;
+    height: 3px;
+    position: absolute;
+}
+i.fas.fa-info-circle {
+    color: chocolate;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------social icons css ------------------------ */
+/* =======social icons css=========== */
+.container_2{
+	max-width: 960px;
+	width:20%;
+	margin:0 auto;
+	text-align: center;
+}
+.social-buttons a{
+	display: inline-flex;
+	text-decoration: none;
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0 40px;
+  }
+  
+  .social-buttons a::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(45deg,#22a6b3,#30336b);
+	border-radius: 50%;
+	z-index: -1;
+	transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover::before{
+	transform: scale(0);
+  }
+  
+  .social-buttons a i{
+	transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover i{
+	background: linear-gradient(45deg,#22a6b3,#30336b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transform: scale(2.2);
+  }
+ #contact h1{
+    border-bottom:2px solid chocolate;
+	padding: 50px 0px;
+ }
+ h1.dag {
+    border-bottom: 3px solid chocolate;
+    width: 38%;
+    margin: 0 auto;
+	
+}
+.scrollup {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+	display:none;
+}
+.scrollup i{
+	font-size:20px;
+	color:#ff0000;
+	background:rgb(255, 255, 255);
+	padding:5px;
+	border-radius:50%;
+	margin-left:100%;
+	
+}
+@media screen and (max-width : 768px){
+	
+	.container_2{
+		max-width: 960px;
+		width:65%;
+		margin:0 auto;
+		text-align: center;
+	}	
+		
+}
+
+
+
+
+
+
+.social_icons2 {
+    padding-bottom: 150px;
+}
